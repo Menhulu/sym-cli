@@ -1,11 +1,30 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@sym-cli/root",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^4.0.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Menhulu/sym-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Menhulu/sym-cli/issues"
+  },
+  "homepage": "https://github.com/Menhulu/sym-cli#readme",
+  "description": ""
 }
