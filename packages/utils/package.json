@@ -1,6 +1,6 @@
 {
-  "name": "utils",
-  "version": "1.0.3",
+  "name": "@sym-cli/utils",
+  "version": "1.0.1",
   "description": "公用工具",
   "author": "shaoyanming",
   "homepage": "",
@@ -18,6 +18,5 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "gitHead": "9c0da809880c1390c31833b03fed6334c292b113"
+  }
 }
