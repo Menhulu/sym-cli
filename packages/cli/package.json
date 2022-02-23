@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@sym-cli/root",
   "version": "1.0.4",
   "description": "> TODO: description",
   "author": "shaoyanming",
@@ -11,7 +11,7 @@
     "test": "__tests__"
   },
   "bin": {
-    "@sym-cli/root": "bin/index.js"
+    "sym-cli": "bin/index.js"
   },
   "files": [
     "bin"
@@ -25,5 +25,5 @@
   "dependencies": {
     "chalk": "^5.0.0"
   },
-  "gitHead": "9a578e8de638c4e43d380c936f4bc9ab43e7d7d2"
+  "gitHead": "37e19c4dbaccf79e1d2a4404732bc012ebebe834"
 }
